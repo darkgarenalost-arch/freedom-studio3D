@@ -54,6 +54,8 @@ nav.scrolled{background:rgba(3,7,18,0.95)}
 .nav-links a:hover::after{width:100%}
 .nav-cta{background:var(--blue);color:#fff;padding:0.6rem 1.4rem;border-radius:50px;font-size:0.85rem;font-weight:600;text-decoration:none;transition:all 0.3s;box-shadow:0 0 20px rgba(0,166,255,0.4)}
 .nav-cta:hover{background:#007BFF;box-shadow:0 0 30px rgba(0,166,255,0.6);transform:translateY(-1px)}
+.nav-links a.nav-cta,.nav-links a.nav-cta:hover{color:#fff}
+.nav-links a.nav-cta::after{display:none}
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
 .hamburger span{width:24px;height:2px;background:#fff;border-radius:2px;transition:all 0.3s}
 .mobile-menu{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(3,7,18,0.98);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:2rem;backdrop-filter:blur(20px)}
@@ -348,7 +350,7 @@ canvas{display:block}
     
     <div class="hero-content">
       <div class="hero-badge">
-        <span>✦</span> Premium Digital Agency · Bhiwandi, India
+        <span>✦</span> Premium Digital Agency · Nashik, India
       </div>
       <h1>
         <span class="line1">We Build Brands</span>
@@ -446,6 +448,18 @@ canvas{display:block}
           <h3>Performance Marketing</h3>
           <p>End-to-end growth campaigns — ad strategy, creative, targeting, and optimisation.</p>
           <span class="service-tag">Growth</span>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon">🎬</div>
+          <h3>Video Editing & Reels</h3>
+          <p>Promotional videos, reels, and social content edited to stop the scroll and drive action.</p>
+          <span class="service-tag">Video</span>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon">🤖</div>
+          <h3>AI-Powered Creative</h3>
+          <p>AI-assisted video ads and marketing visuals that help you create better, faster — without losing authenticity.</p>
+          <span class="service-tag">AI Solutions</span>
         </div>
       </div>
       <div style="text-align:center;margin-top:3rem">
@@ -905,6 +919,90 @@ canvas{display:block}
             <a class="btn-primary" href="#" onclick="showPage('contact')" style="font-size:0.85rem;padding:0.7rem 1.5rem">Get a Custom Quote →</a>
           </div>
         </div>
+
+        <div class="service-detail reveal">
+          <div class="service-detail-header">
+            <div class="service-detail-icon">🎬</div>
+            <div>
+              <h2>Video Editing & Reels</h2>
+              <p style="color:var(--muted);font-size:0.9rem;margin-top:0.25rem">Video content designed to stop the scroll, communicate your offer, and build trust.</p>
+            </div>
+          </div>
+          <div class="service-detail-grid">
+            <div class="service-detail-col">
+              <h4>Benefits</h4>
+              <ul>
+                <li>Higher engagement on social</li>
+                <li>Builds trust faster than static posts</li>
+                <li>Ready for Reels, Shorts & ads</li>
+                <li>Consistent brand look on video</li>
+              </ul>
+            </div>
+            <div class="service-detail-col">
+              <h4>Deliverables</h4>
+              <ul>
+                <li>Reels & short-form edits</li>
+                <li>Promotional/ad videos</li>
+                <li>Product & business videos</li>
+                <li>Captions, transitions & sound design</li>
+              </ul>
+            </div>
+            <div class="service-detail-col">
+              <h4>Process</h4>
+              <ul>
+                <li>Raw footage or script review</li>
+                <li>Edit, caption & sound pass</li>
+                <li>Revisions</li>
+                <li>Export in all required formats</li>
+              </ul>
+            </div>
+          </div>
+          <div style="margin-top:2rem">
+            <a class="btn-primary" href="#" onclick="showPage('contact')" style="font-size:0.85rem;padding:0.7rem 1.5rem">Get a Custom Quote →</a>
+          </div>
+        </div>
+
+        <div class="service-detail reveal">
+          <div class="service-detail-header">
+            <div class="service-detail-icon">🤖</div>
+            <div>
+              <h2>AI-Powered Creative</h2>
+              <p style="color:var(--muted);font-size:0.9rem;margin-top:0.25rem">AI-assisted video ads and marketing visuals that help you create better, faster — without losing authenticity.</p>
+            </div>
+          </div>
+          <div class="service-detail-grid">
+            <div class="service-detail-col">
+              <h4>Benefits</h4>
+              <ul>
+                <li>Faster creative turnaround</li>
+                <li>Lower cost per creative</li>
+                <li>Scales content production</li>
+                <li>Blended with real footage for trust</li>
+              </ul>
+            </div>
+            <div class="service-detail-col">
+              <h4>Deliverables</h4>
+              <ul>
+                <li>AI-assisted video advertisements</li>
+                <li>AI-generated marketing visuals</li>
+                <li>AI-assisted campaign creative</li>
+                <li>Human review & polish on every asset</li>
+              </ul>
+            </div>
+            <div class="service-detail-col">
+              <h4>Our Approach</h4>
+              <ul>
+                <li>AI enhances — it doesn't fake credibility</li>
+                <li>Real work & real proof come first</li>
+                <li>Used to speed up, not replace, our team</li>
+                <li>One part of a full-service offering</li>
+              </ul>
+            </div>
+          </div>
+          <div style="margin-top:2rem">
+            <a class="btn-primary" href="#" onclick="showPage('contact')" style="font-size:0.85rem;padding:0.7rem 1.5rem">Get a Custom Quote →</a>
+          </div>
+        </div>
       </div>
 
       <div class="cta-section reveal" style="margin-top:4rem">
@@ -1139,6 +1237,21 @@ canvas{display:block}
         </div>
       </div>
 
+      <!-- Subscription Website Offer -->
+      <div class="cta-section reveal" style="margin-top:4rem;background:rgba(0,166,255,0.06);border:1px solid var(--border)">
+        <div style="font-size:0.8rem;color:var(--blue);font-weight:700;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:0.75rem">Low-Entry Option</div>
+        <h2>Professional Website for Just <span style="color:var(--blue)">₹899/month</span></h2>
+        <p>No website yet? No big upfront budget? This plan gets your business online fast — with a free domain and free hosting included.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;margin:1.5rem 0">
+          <span style="background:rgba(0,166,255,0.1);border:1px solid var(--border);color:var(--muted);font-size:0.8rem;padding:0.5rem 1rem;border-radius:50px">Free Domain</span>
+          <span style="background:rgba(0,166,255,0.1);border:1px solid var(--border);color:var(--muted);font-size:0.8rem;padding:0.5rem 1rem;border-radius:50px">Free Hosting</span>
+          <span style="background:rgba(0,166,255,0.1);border:1px solid var(--border);color:var(--muted);font-size:0.8rem;padding:0.5rem 1rem;border-radius:50px">Mobile Responsive</span>
+          <span style="background:rgba(0,166,255,0.1);border:1px solid var(--border);color:var(--muted);font-size:0.8rem;padding:0.5rem 1rem;border-radius:50px">Professional UI</span>
+          <span style="background:rgba(0,166,255,0.1);border:1px solid var(--border);color:var(--muted);font-size:0.8rem;padding:0.5rem 1rem;border-radius:50px">Business-Focused Structure</span>
+        </div>
+        <a class="btn-primary" href="#" onclick="showPage('contact')">Get Started for ₹899/mo →</a>
+      </div>
+
       <!-- Add-ons -->
       <div style="margin-top:4rem">
         <div class="text-center reveal">
@@ -1322,7 +1435,7 @@ canvas{display:block}
               <div class="contact-detail-icon">📍</div>
               <div>
                 <div style="font-weight:600;font-size:0.9rem;color:#fff;margin-bottom:0.1rem">Location</div>
-                <div>Bhiwandi, Maharashtra, India</div>
+                <div>Nashik, Maharashtra, India</div>
               </div>
             </div>
           </div>
@@ -1414,12 +1527,14 @@ canvas{display:block}
           <a href="#" onclick="showPage('services')" style="color:var(--muted);text-decoration:none;font-size:0.85rem">Brand Identity</a>
           <a href="#" onclick="showPage('services')" style="color:var(--muted);text-decoration:none;font-size:0.85rem">Landing Pages</a>
           <a href="#" onclick="showPage('services')" style="color:var(--muted);text-decoration:none;font-size:0.85rem">Graphic Design</a>
+          <a href="#" onclick="showPage('services')" style="color:var(--muted);text-decoration:none;font-size:0.85rem">Video Editing</a>
+          <a href="#" onclick="showPage('services')" style="color:var(--muted);text-decoration:none;font-size:0.85rem">AI-Powered Creative</a>
         </div>
       </div>
       <div>
         <div style="font-size:0.75rem;color:var(--blue);font-weight:600;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:1rem">Contact</div>
         <div style="display:flex;flex-direction:column;gap:0.5rem">
-          <span style="color:var(--muted);font-size:0.85rem">Bhiwandi, Maharashtra</span>
+          <span style="color:var(--muted);font-size:0.85rem">Nashik, Maharashtra</span>
           <span style="color:var(--muted);font-size:0.85rem">freedomhive@gmail.com</span>
           <a href="#" onclick="showPage('contact')" style="color:var(--blue);text-decoration:none;font-size:0.85rem;margin-top:0.5rem;font-weight:600">Book a Free Call →</a>
         </div>
